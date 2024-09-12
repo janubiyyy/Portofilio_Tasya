@@ -56,7 +56,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "I have honed my skills in front-end development, focusing on creating dynamic and responsive web applications using technologies such as React, Vue, Nuxt, Tailwind CSS, JavaScript, HTML5, CSS3, and performance optimization. My work emphasizes seamless user experiences and design consistency across various devices.",
+    "As an experienced Front-End Web Developer, I excel in building dynamic, scalable, and user-focused web applications. With a solid foundation in responsive design, I have refined my skills through diverse projects, from optimizing website performance to creating seamless and intuitive user experiences. My passion for modern web technologies enables me to deliver solutions that not only meet user expectations but also contribute to business success.",
   items: [
     {
       company: "PT Penerbit Erlangga Group",
