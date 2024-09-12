@@ -22,12 +22,15 @@ const Photo = () => {
           className="w-[298px] h-[240px] xl:w-[498px] xl:h-[420px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/aca.jpeg"
+            src="/assets/crop.png"
             priority
             quality={100}
             fill
             alt=""
             className="object-contain"
+            style={{
+              marginTop: "40px",
+            }}
           />
         </motion.div>
         {/* CIRCLE */}
