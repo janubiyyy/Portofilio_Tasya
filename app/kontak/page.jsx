@@ -46,6 +46,8 @@ const Kontak = () => {
     phone: "",
     service: "",
     message: "",
+    emailSaya: "tasyakhaerani66@gmail.com",
+    namaSaya: "Tasya Khaerani Janubiya",
   });
 
   const handleChange = (e) => {
@@ -157,12 +159,15 @@ const Kontak = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a Service</SelectLabel>
-                    <SelectItem value="Web Developer">Web Developer</SelectItem>
+                    <SelectItem value="Front End Web Programmer">
+                      Front End Web Programmer
+                    </SelectItem>
                     <SelectItem value="Back End Programmer">
                       Back End Programmer
                     </SelectItem>
-                    <SelectItem value="Front End Web Programmer">
-                      Front End Web Programmer
+                    <SelectItem value="Web Developer">Web Developer</SelectItem>
+                    <SelectItem value=" Full Stack Web Developer">
+                      Full Stack Web Developer
                     </SelectItem>
                   </SelectGroup>
                 </SelectContent>
