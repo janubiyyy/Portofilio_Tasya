@@ -10,20 +10,22 @@ const Home = () => {
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
+            <span className="text-xl">Front End Developer</span>
             <h1 className="h1 mb-6">
               Hello I'm <br />{" "}
               <span className="text-accent">Tasya Khaerani Janubiya</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I am Tasya Khaerani Janubiya, a graduate of Information Systems
-              from Universitas Nasional with over two years of experience in web
-              development. I specialize in Next Js, React JS, Vue JS, Nuxt JS,
-              and full-stack development with Express.js, Node.js, and MySQL.
-              I’ve successfully launched several websites praised for their
-              efficiency and user-friendly design. I am eager to contribute as a
-              Front End Developer or Full Stack, with a focus on UI/UX and Agile
-              methodologies.
+              from Universitas Nasional with over three years of experience in
+              web development. I specialize in Next.js, React.js, Vue.js, and
+              Nuxt.js, with a strong focus on building responsive user
+              interfaces (UI) and enhancing user experience (UX). Throughout my
+              career, I have developed and launched various websites that have
+              been praised for their performance, efficiency, and
+              user-friendliness. I am passionate about contributing as a Front
+              End Developer, bringing a strong commitment to UI/UX best
+              practices and Agile methodologies in every project I undertake.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a href="/assets/Resume-Tasya.pdf" download>

@@ -26,7 +26,7 @@ const projects = [
       { name: "Next.js" },
       { name: "TypeScript" },
       { name: "Jenkins" },
-      { name: "GitBucket" },
+      { name: "BitBucket" },
     ],
     image: "/assets/work/jasamarga-tcm.png",
     live: "https://tcm.jasamarga.co.id/",

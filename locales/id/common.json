@@ -1,0 +1,12 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "resume": "Resume",
+    "project": "Proyek",
+    "kontak": "Kontak"
+  },
+  "language": {
+    "english": "Inggris",
+    "indonesian": "Indonesia"
+  }
+}

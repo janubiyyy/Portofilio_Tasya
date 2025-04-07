@@ -13,7 +13,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata = {
   title: "janubiyyy.tech",
-  description: "Ramdhe Profile",
+  description: "Janubiyyy Profile",
 };
 
 export default function RootLayout({ children }) {
