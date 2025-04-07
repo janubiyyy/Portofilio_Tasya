@@ -1,6 +1,16 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaDocker, FaVuejs } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaDocker,
+  FaVuejs,
+  FaGitlab,
+  FaJenkins,
+  FaJira,
+} from "react-icons/fa";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
@@ -16,6 +26,11 @@ import {
   SiNextdotjs,
   SiGit,
   SiGithub,
+  SiTypescript,
+  SiNuxtdotjs,
+  SiNextui,
+  SiAntdesign,
+  SiVuetify,
   SiPython,
   SiMicrosoft,
 } from "react-icons/si";
@@ -35,7 +50,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "2 Years",
+      fieldValue: "3 Years",
     },
     {
       fieldName: "Nationality",
@@ -59,9 +74,14 @@ const experience = {
     "As an experienced Front-End Web Developer, I excel in building dynamic, scalable, and user-focused web applications. With a solid foundation in responsive design, I have refined my skills through diverse projects, from optimizing website performance to creating seamless and intuitive user experiences. My passion for modern web technologies enables me to deliver solutions that not only meet user expectations but also contribute to business success.",
   items: [
     {
+      company: " PT Mitra Integrasi Informatika ",
+      position: "Front End Developer (for Jasa Marga) ",
+      duration: "Jan 2025-present",
+    },
+    {
       company: "PT Penerbit Erlangga Group",
       position: "Front End Website Developer",
-      duration: "Aug 2022-present",
+      duration: "Aug 2022-Jan 2025",
     },
     {
       company: "PT.Sociolla Bella Indonesia",
@@ -115,11 +135,9 @@ const skills = {
   description:
     "Proficient in a variety of programming languages and frameworks, I excel in developing mobile and web applications. My technical skills are complemented by strong problem-solving abilities, effective teamwork, and excellent communication.",
   skillList: [
-
-
     {
-      icon: <SiTailwindcss />,
-      name: "Tailwind",
+      icon: <SiNextdotjs />,
+      name: "Next Js",
     },
     {
       icon: <FaReact />,
@@ -130,16 +148,50 @@ const skills = {
       name: "Vue Js",
     },
     {
-      icon: <SiGit />,
-      name: "Git",
+      icon: <SiNuxtdotjs />,
+      name: "Nuxt Js",
+    },
+
+    {
+      icon: <SiTailwindcss />,
+      name: "Tailwind",
+    },
+    {
+      icon: <SiNextui />,
+      name: "MUI",
+    },
+    {
+      icon: <SiAntdesign />,
+      name: "Ant design",
+    },
+    {
+      icon: <SiVuetify />,
+      name: "Vuetify",
     },
     {
       icon: <SiGithub />,
       name: "Github",
     },
     {
+      icon: <FaGitlab />,
+      name: "Gitlab",
+    },
+
+    {
+      icon: <FaJenkins />,
+      name: "Jenskin",
+    },
+    {
+      icon: <FaJira />,
+      name: "Jira",
+    },
+    {
       icon: <FaJs />,
       name: "Java script",
+    },
+    {
+      icon: <SiTypescript />,
+      name: "Type script",
     },
     {
       icon: <FaCss3 />,

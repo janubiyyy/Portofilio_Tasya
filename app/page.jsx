@@ -16,10 +16,17 @@ const Home = () => {
               <span className="text-accent">Tasya Khaerani Janubiya</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            I am Tasya Khaerani Janubiya, a graduate of Information Systems from Universitas Nasional with over two years of experience in web development. I specialize in React JS, Vue JS, Nuxt JS, and full-stack development with Express.js, Node.js, and MySQL. I’ve successfully launched several websites praised for their efficiency and user-friendly design. I am eager to contribute as a Front End Developer or Full Stack, with a focus on UI/UX and Agile methodologies.
+              I am Tasya Khaerani Janubiya, a graduate of Information Systems
+              from Universitas Nasional with over two years of experience in web
+              development. I specialize in Next Js, React JS, Vue JS, Nuxt JS,
+              and full-stack development with Express.js, Node.js, and MySQL.
+              I’ve successfully launched several websites praised for their
+              efficiency and user-friendly design. I am eager to contribute as a
+              Front End Developer or Full Stack, with a focus on UI/UX and Agile
+              methodologies.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <a href="/assets/cvax.pdf" download>
+              <a href="/assets/Resume-Tasya.pdf" download>
                 <Button
                   variant="outline"
                   size="lg"

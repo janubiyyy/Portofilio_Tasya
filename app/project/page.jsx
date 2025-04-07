@@ -18,6 +18,22 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
+    category: "Website JasaMarga Toll Collection Managemnet System ",
+    title: "Jasamarga Tcm ",
+    description:
+      "Developed and maintained an internal web portal for Jasa Marga's Toll Collection Management System (TCMS), improving operational efficiency with a responsive Next.js + TypeScript application. Implemented a real-time traffic monitoring dashboard with dynamic data visualization for enterprise use. Optimized CI/CD workflows using Jenkins and GitBucket to streamline deployments and maintenance.",
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Jenkins" },
+      { name: "GitBucket" },
+    ],
+    image: "/assets/work/jasamarga-tcm.png",
+    live: "https://tcm.jasamarga.co.id/",
+    github: "",
+  },
+  {
+    num: "02",
     category: "Website Jaja ID ",
     title: "Jaja ID",
     description:
@@ -34,7 +50,7 @@ const projects = [
     github: "",
   },
   {
-    num: "02",
+    num: "03",
     category: "Website Jaja Auto ",
     title: "Jaja Auto",
     description:
@@ -50,25 +66,52 @@ const projects = [
     github: "",
   },
   {
-    num: "03",
+    num: "04",
     category: "Website Eureka Book House",
     title: "Eureka Book House",
     description:
       "We make it easy for you to buy all products related to Books, ATK, Lifestyle, Toys & Hobbies, Sports & Outdoors and Handmade, just by accessing the Eurekabookhouse.co.id site.",
-    stack: [{ name: "Vue" }, { name: "Vuex" }, { name: "Vue Boostrap" }, { name: "Flickity" }, { name: "Lodash" }],
+    stack: [
+      { name: "Vue" },
+      { name: "Vuex" },
+      { name: "Vue Boostrap" },
+      { name: "Flickity" },
+      { name: "Lodash" },
+    ],
     image: "/assets/work/ebhhh.png",
-    live: "https://sandbox.eurekabookhouse.co.id/",
+    live: "https://eurekabookhouse.com/",
     github: "",
   },
   {
-    num: "04",
+    num: "05",
     category: "Website CMS Katarasa",
     title: "Katarasa",
     description:
       "website administrator to manage and monitor systems or applications. It provides an overall view of important data and statistics, as well as tools for performing administrative actions.",
-    stack: [{ name: "React" }, { name: "Antd" }, { name: "Tailwind" }, { name: "Vite" }],
+    stack: [
+      { name: "React" },
+      { name: "Antd" },
+      { name: "Tailwind" },
+      { name: "Vite" },
+    ],
     image: "/assets/work/katras.png",
-    live: "https://sandbox.eurekabookhouse.co.id/",
+    live: "https://nimda.katarasa.id/auth/signin/",
+    github: "",
+  },
+  {
+    num: "06",
+    category: "Website CMS Eureka Book House",
+    title: "Eureka Book House Admin",
+    description:
+      "Developed a custom CMS for Eureka Book House to manage book inventory, sales data, and user accounts. The platform provides real-time analytics, order tracking, and content management tools, streamlining backend operations for the bookstore.",
+    stack: [
+      { name: "React" },
+      { name: "Ant Design" },
+      { name: "Tailwind CSS" },
+      { name: "Vite" },
+    ],
+    image: "/assets/work/eureka-book-house.png",
+    live: "https://dashboard.eurekabookhouse.com/",
     github: "",
   },
 ];
